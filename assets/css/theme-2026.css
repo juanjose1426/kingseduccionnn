@@ -1,0 +1,84 @@
+/* KINGSEDUCCION / ATELIER COLLECTION — 2026
+   Visual system: midnight graphite + champagne + warm ivory.
+   This layer purposefully overrides the original DELTA-era greens. */
+:root{
+  --ink:#252329;--night:#17171e;--forest:#282832;--forest2:#39343d;
+  --gold:#d6b98c;--gold2:#a9855e;--cream:#f8f6f2;--paper:#fffefd;
+  --muted:#77727a;--line:#e9e3dd;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'DM Sans',system-ui,sans-serif;
+}
+body{background:#f8f6f2;color:#252329;letter-spacing:-.006em}
+::selection{background:#d7b98d66;color:#211e23}
+:focus-visible{outline:3px solid #cba77b!important;outline-offset:2px}
+.announcement{background:#18171e;color:#ead7b7;letter-spacing:.18em}
+.site-header{background:rgba(253,252,249,.97);box-shadow:0 1px 0 #31282414;backdrop-filter:blur(24px)}
+.brand-symbol{color:#24232b}
+.brand-symbol span,.brand-label small{color:#a8835f}
+.brand-label b{color:#29252b;letter-spacing:.18em}
+.nav-links a{color:#4f4950}
+.nav-links a:hover,.nav-links a.current,.nav-links .admin-link{color:#a68157}
+.icon-btn{color:#282630}
+.icon-btn:hover{background:#f2ebe4}
+.nav-links a.current:after{background:#a68157}
+.cart-badge{background:#2a2934;color:#ffebd2}
+.hero{background:#1d1c24}
+.hero-text{background:radial-gradient(circle at 25% 25%,#3f333c 0%,#211f29 47%,#14151d 100%);border-right:1px solid #ffffff12}
+.hero .eyebrow{color:#dfbf98}
+.hero h1{letter-spacing:-.057em}
+.hero h1 em{color:#e0bc90}
+.hero p:not(.eyebrow){color:#c9c2c7}
+.hero-stats strong{color:#e7c79c}
+.hero-stats span{color:#afa5ae}
+.hero-art{background:radial-gradient(ellipse at 48% 37%,#8b797f 0%,#51444e 36%,#272630 74%,#17171d 100%)}
+.hero-art:after{background:linear-gradient(105deg,transparent 35%,rgba(12,12,19,.15)),repeating-linear-gradient(90deg,transparent 0 85px,#ffffff06 86px 87px)}
+.hero-orbit{border-color:#f3d9b045}
+.hero-caption{color:#fff4e4}
+.hero-caption span{color:#e3cfb8}
+.benefits{background:#fffcf9}
+.benefits-grid>div{color:#98826f}
+.benefits b{color:#4d4144}
+.benefits small{color:#8f8988}
+.section-products{background:linear-gradient(180deg,#faf9f7,#f5f0ea)}
+.eyebrow{color:#a9855e}
+.mini-line{background:#ba986e}
+.btn{border-radius:5px;letter-spacing:.08em;transition:transform .22s ease,box-shadow .22s ease,background .22s ease}
+.btn-gold{background:#c8a779;color:#1c1b21;border-color:#c8a779}
+.btn-gold:hover{background:#dfbe90;border-color:#dfbe90;box-shadow:0 12px 25px #8466442d}
+.btn-outline-dark{color:#312b2e;border-color:#cfc1b2}
+.btn-outline-dark:hover{background:#f3eae2;border-color:#bca384}
+.text-link,.dark-link{color:#aa8257}
+.product-card{border:1px solid #eae4dc;border-radius:9px;overflow:hidden;box-shadow:0 7px 30px #2820250c}
+.product-card:hover{box-shadow:0 24px 45px #2b202524}
+.product-info{background:#fffdfb}
+.product-info h3 a:hover{color:#ac835b}
+.product-micro{color:#947c66}
+.product-meta{color:#8c8583}
+.round-add{background:#292732;color:#ecd6ac;border-radius:6px}
+.round-add:hover{background:#a57e5e}
+.favorite-pill{color:#504750}
+.product-tag{background:#f7efe3;color:#886b4a;border-radius:3px}
+.bottle-stage{background:#e6ddd5}
+.tone-1{background:radial-gradient(circle at 50% 40%,#eae0d3,#c5b5ac)}
+.tone-2{background:radial-gradient(circle at 50% 40%,#f4e6e3,#d2bfc3)}
+.tone-3{background:radial-gradient(circle at 50% 40%,#e9e6e9,#c3bcc8)}
+.tone-4{background:radial-gradient(circle at 50% 40%,#ebdbdd,#c4aeb7)}
+.tone-5{background:radial-gradient(circle at 50% 40%,#f0e5d9,#cebda7)}
+.tone-6{background:radial-gradient(circle at 50% 40%,#dddcdf,#aeadb5)}
+.bottle-label span{color:#534437}
+.discover-art,.discovery-art{background:radial-gradient(circle at 40% 45%,#685263,#302b35)}
+.club,.quote-band{background:#23212b;color:#f6eee5}
+.footer{background:#191920;color:#ddd2c3}
+.footer .brand-symbol,.footer .brand-label b{color:#fff8ea}
+.inner-hero{background:linear-gradient(118deg,#1a1a23,#34303a 62%,#54414a);color:#fff7ed}
+.inner-hero .lead{color:#d0c5c7}
+.auth-art{background:linear-gradient(125deg,#2a2531,#574450)}
+.status{border-radius:24px}
+.admin-page{background:#f6f4f1}
+input:not([type=checkbox]):not([type=radio]),select,textarea{border-radius:6px}
+button,[data-action]{touch-action:manipulation}
+@media(max-width:900px){.nav-links{background:#fffdfa;box-shadow:0 16px 28px #30242d21}}
+@media(prefers-reduced-motion:no-preference){.hero-orbit{animation:ksBreathe 12s ease-in-out infinite alternate}.hero-bottle{animation:ksFloat 6s ease-in-out infinite alternate}.product-card{animation:ksCardIn .45s both}}
+@keyframes ksBreathe{to{opacity:.54;transform:translate(-50%,-50%) scale(1.06)}}
+@keyframes ksFloat{to{transform:translate(-50%,-48%)}}
+@keyframes ksCardIn{from{opacity:.65;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}

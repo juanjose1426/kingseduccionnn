@@ -1,0 +1,102 @@
+/* KingSeduccion DUO v4 · ESTUDIO AZUL / premium ocean & brass. New stylesheet loaded AFTER all legacy themes. */
+:root{--ink:#0b2235;--night:#071927;--forest:#07354b;--forest2:#0b5264;--gold:#dda768;--gold2:#ad7944;--cream:#edf5f5;--paper:#fff;--muted:#667d87;--line:#d7e5e8;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif}
+body{background:#eef5f5;color:#102b3e;font-family:var(--sans)}
+.announcement{background:#092437;color:#fff3d9;padding:11px 15px;letter-spacing:.15em;font-size:10px}
+.announcement span{color:#edae6b}
+.site-header{background:#f9fcfc;box-shadow:0 2px 0 #0e324518;border-bottom:1px solid #d2e6e9}
+.brand-symbol{color:#0a4358}.brand-symbol span,.brand-label small{color:#c48b4e}
+.brand-label b{color:#102e40}.brand-label small{letter-spacing:.16em}
+.nav-links a{color:#264859}.nav-links a:hover,.nav-links a.current,.nav-links .admin-link{color:#00788a}
+.icon-btn{color:#12354b}.icon-btn:hover{background:#dcecef}.nav-links a.current:after{background:#00a6a7}
+.btn,.btn-gold{border-radius:9px;letter-spacing:.075em}
+.btn-gold{background:#0b6574;border-color:#0b6574;color:#fff;box-shadow:0 9px 24px #085a6629}
+.btn-gold:hover{background:#0e8691;border-color:#0e8691;box-shadow:0 15px 30px #0d73894a;color:white}
+.btn-outline-dark{border-color:#81a5b2;color:#15435b;background:transparent}
+.btn-outline-dark:hover{background:#ddeef0;border-color:#0d7782;color:#064652}
+.eyebrow,.text-link,.dark-link{color:#007782}.mini-line{background:#0caaac}
+.hero{background:#061d2b;min-height:570px}
+.hero-text{background:radial-gradient(circle at 4% 70%,#0b5661 0%,#06384c 40%,#071d2f 88%);border-right:1px solid #3b728360}
+.hero-art{background:radial-gradient(circle at 50% 40%,#628b8e 0%,#174b5c 39%,#0b273a 85%)}
+.hero-art:after{background:radial-gradient(circle at 80% 30%,#d5a36633,transparent 35%),repeating-linear-gradient(90deg,transparent 0 112px,#ffffff08 113px 114px)}
+.hero .eyebrow{color:#94efe2}.hero h1{font-weight:500;letter-spacing:-.06em}.hero h1 em{color:#ffc581}
+.hero p:not(.eyebrow){color:#d3e8ea}.hero-stats strong{color:#b6fff3}.hero-stats span{color:#b0d3d8}
+.hero-orbit{border-color:#a9f3e46e}.hero-caption{color:#fff7e9}.hero-caption span{color:#aef3e4}
+.benefits{background:#f5fafa;border-bottom:1px solid #d6e8eb}.benefits-grid>div{color:#077586}.benefits b{color:#123e54}.benefits small{color:#6a8994}
+.section-products{background:linear-gradient(165deg,#f7fbfb 0%,#e7f1f3 100%)}
+.product-card{border:1px solid #d7e8ec;border-radius:16px;box-shadow:0 12px 35px #082b3f13;transition:transform .2s,box-shadow .2s}
+.product-card:hover{transform:translateY(-4px);box-shadow:0 22px 44px #092b4140}
+.product-info{background:#fff}.product-info h3 a:hover{color:#047b89}.product-micro{color:#0d7181}.product-meta{color:#68828c}
+.product-tag{background:#d9f4ec;color:#006a6a;border-radius:20px}
+.favorite-pill{color:#0d596a}.round-add{background:#0a5469;color:white;border-radius:10px}.round-add:hover{background:#00919b}
+.tone-1{background:radial-gradient(circle,#cde6e6,#8ab5bc)}.tone-2{background:radial-gradient(circle,#e9edf6,#a9bad9)}
+.tone-3{background:radial-gradient(circle,#e0e9e0,#91aeaa)}.tone-4{background:radial-gradient(circle,#e6e6f2,#b1b3ce)}
+.tone-5{background:radial-gradient(circle,#f4eee4,#d9c19e)}.tone-6{background:radial-gradient(circle,#dce9ed,#9ebec9)}
+.bottle-label span{color:#0f4d58}.discovery-art,.discover-art{background:radial-gradient(circle at 40% 40%,#116b75,#082939)}
+.club,.quote-band{background:#0a2e40;color:#f6f9f9}.footer{background:#071d2c;color:#d5e8ec}.footer .brand-symbol,.footer .brand-label b{color:#fff}
+.inner-hero{background:linear-gradient(115deg,#052a3c 0%,#0e4e5b 60%,#14808b);color:#fff}.inner-hero .lead{color:#e1f6f5}
+.auth-art{background:linear-gradient(135deg,#072c40,#0c7883)}.status{border-radius:50px}
+.shop,.section,.shop-bar{border-color:#cee2e7}
+/* Public two-price component */
+.dual-prices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0 26px}
+.dual-prices>div{background:#fff;border:1px solid #c9e2e5;border-radius:13px;padding:17px 18px;display:flex;flex-direction:column;gap:6px}
+.dual-prices>div span{font-size:10px;letter-spacing:.15em;font-weight:800;color:#66808c}
+.dual-prices>div b{font-size:21px;color:#0a4d63;font-family:var(--sans);letter-spacing:-.03em}
+.dual-prices .wholesale-price{background:#0b5260;border-color:#0b5260}.dual-prices .wholesale-price span{color:#c3f1ec}.dual-prices .wholesale-price b{color:#fff}
+.card-prices{display:flex;flex-direction:column;gap:1px;min-width:0}.card-prices small{font-size:9px;color:#69828c;letter-spacing:.08em;font-weight:700}.card-prices strong{font-size:16px;color:#0a5364}
+.card-prices .mayor-caption{letter-spacing:0;color:#087d81;font-size:10px;padding-top:4px;font-weight:700}
+.cart-data>small{display:block}.checkout-item small{font-size:9px;color:#0c8d8a}
+/* Admin: visibly new design, even after old admin-studio CSS */
+body[data-page='admin']{background:#edf5f6}
+body[data-page='admin'] .admin-page{background:linear-gradient(120deg,#e8f3f5,#f6fbfc);padding:36px 0 95px}
+body[data-page='admin'] .admin-top{background:linear-gradient(120deg,#073248,#0c6d7c);padding:28px 36px;border-radius:19px;align-items:center;margin-bottom:28px}
+body[data-page='admin'] .admin-top h1{color:#fff;font-size:38px}
+body[data-page='admin'] .admin-top h1 em{color:#ffc987}
+body[data-page='admin'] .admin-top .eyebrow{color:#b3e8e4}
+body[data-page='admin'] .admin-user{background:#ffffff20;color:white;border:1px solid #bde2e666;box-shadow:none}
+body[data-page='admin'] .admin-sidebar{background:linear-gradient(165deg,#09273b,#0a485d);border:1px solid #2a6474;border-radius:19px;box-shadow:0 18px 35px #05374928}
+body[data-page='admin'] .admin-sidebar-logo{background:#09384a;color:#b9ffe8;border-color:#4da6aa}
+body[data-page='admin'] .admin-sidebar-head b{color:#f7ffff}
+body[data-page='admin'] .admin-menu{color:#cae1e7}
+body[data-page='admin'] .admin-menu:hover{background:#2f80934d}
+body[data-page='admin'] .admin-menu.active{background:#b8f0e6;color:#0b4553;box-shadow:none}
+body[data-page='admin'] .admin-title-row h2{color:#092f43}
+body[data-page='admin'] .admin-title-row p{color:#547784}
+body[data-page='admin'] .admin-overline{color:#05828a}
+body[data-page='admin'] .admin-panel,body[data-page='admin'] .stat-box{background:#fff;border:1px solid #d4e6e9;border-radius:16px;box-shadow:0 8px 30px #0a3d5310}
+body[data-page='admin'] .stat-box>svg{stroke:#02939a}
+body[data-page='admin'] .stat-box>strong{color:#0a4a5f}
+body[data-page='admin'] .admin-spotlight{background:linear-gradient(110deg,#06384e,#0e7784);border:1px solid #6dbcb9;border-radius:17px}
+body[data-page='admin'] .admin-spotlight .admin-overline{color:#c1ffee}
+body[data-page='admin'] .admin-spotlight h3{color:#fff}
+body[data-page='admin'] .admin-spotlight p{color:#d2eff0}
+body[data-page='admin'] .admin-pill-stats a{border-color:#d4e9e9}
+body[data-page='admin'] .admin-pill-stats a:hover{border-color:#45a7b1;background:#e9f8f8}
+body[data-page='admin'] .panel-head{background:#f7fbfc;border-bottom:1px solid #d6e7eb}
+body[data-page='admin'] .panel-head h3{color:#153d50}
+body[data-page='admin'] .soft-tag{background:#dff3f1;color:#086270}
+body[data-page='admin'] .table-scroll table thead{background:#e9f3f5}
+body[data-page='admin'] .table-scroll table tbody tr:hover{background:#f1faf9}
+body[data-page='admin'] .table-actions button,body[data-page='admin'] .table-action-primary{color:#02788b}
+body[data-page='admin'] .admin-search-label,body[data-page='admin'] .admin-filter-select{border-color:#ccdee4}
+body[data-page='admin'] .admin-product-identity .admin-mini-photo{background:#d9eef0}
+body[data-page='admin'] .admin-missing{color:#a66a36}
+body[data-page='admin'] .csv-panel{border:1px solid #71b9ba;background:#faffff}
+body[data-page='admin'] .admin-gate-art{background:linear-gradient(145deg,#09344a,#0c7381)}
+body[data-page='admin'] .admin-gate-form{background:#fff}
+body[data-page='admin'] .product-form .panel-head{background:#edf7f7}
+.price-field-group{grid-column:1/-1;background:linear-gradient(120deg,#e9f7f7,#f2f8fc);border:1px solid #8bc4c8;border-radius:14px;padding:19px 19px 14px;display:grid;gap:11px;margin:5px 0 10px}
+.price-field-title{font-size:11px;letter-spacing:.14em;color:#0c7182;font-weight:800}
+.price-field-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.price-field-grid label{font-size:12px;font-weight:700;color:#0d4d60}
+.price-field-grid input{font-size:16px;font-weight:700;background:white;border:1px solid #aed3d5!important;color:#0e3749;max-width:100%}
+.price-field-group>small{color:#557e87;line-height:1.5;font-size:11px}
+body[data-page='admin'] .csv-buttons{flex-wrap:wrap}
+body[data-page='admin'] .csv-buttons form{display:flex;gap:11px;flex-wrap:wrap}
+@media(max-width:900px){.nav-links{background:#f8ffff}.price-field-grid{grid-template-columns:1fr}.dual-prices{grid-template-columns:1fr}}
+@media(max-width:650px){body[data-page='admin'] .admin-top{padding:22px 20px}body[data-page='admin'] .admin-top h1{font-size:31px}.dual-prices>div b{font-size:19px}}
+
+/* KINGSEDUCCION V5 — confirmación persistente de edición */
+.admin-save-status{margin:12px 0;padding:14px 17px;border-radius:12px;background:#e8f2f5;border:1px solid #bbd9df;color:#123d4d;font-size:.9rem;line-height:1.5;font-weight:600}
+.admin-save-status.pending{background:#fff6e4;border-color:#eed09a;color:#795521}
+.admin-save-status.confirmed{background:#e6f6ef;border-color:#98d5b5;color:#116143}
+.admin-save-status.failed{background:#fff0ee;border-color:#e5a6a1;color:#8a2925}

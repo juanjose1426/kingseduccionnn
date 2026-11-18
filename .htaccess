@@ -1,0 +1,8 @@
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|css|js|webmanifest)$">
+    Header set Cache-Control "no-cache, max-age=0, must-revalidate"
+  </FilesMatch>
+  <Files "service-worker.js">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </Files>
+</IfModule>
